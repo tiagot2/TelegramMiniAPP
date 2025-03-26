@@ -1,7 +1,7 @@
 from telegram import Update, WebAppInfo, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackContext
 
-TOKEN = '7874407399:'
+TOKEN = ''
 URL_JOGO = 'https://github.com/tiagot2/TelegramMiniAPP/'
 
 async def start(update: Update, context: CallbackContext) -> None:
